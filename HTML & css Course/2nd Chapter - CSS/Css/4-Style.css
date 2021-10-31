@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#main{
+    background-color: darkmagenta;
+}
+
+.sub{
+    background-color: darkolivegreen;
+}
+p{
+    background-color: darkorange;
+    color: darkturquoise;
+}

@@ -1,0 +1,14 @@
+div{
+    border:red 2px solid;
+    font-size: 20px;
+}
+
+p{
+    border: 1px solid green;
+    width: 50%;
+    /* font-size: 100%; */
+    background-color: lightblue;
+    margin: 15px auto ; 
+    /* margin-left: 25px; */
+    text-align: center;
+}

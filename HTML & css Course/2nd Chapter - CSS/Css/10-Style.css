@@ -1,0 +1,22 @@
+/* inline selector > id selector > class selector > element selector */
+
+h1{
+    color: red;
+}
+
+h1.heading{
+    color: darkgoldenrod;
+}
+
+.heading{
+    color: darkcyan;
+}
+
+.h1class{
+    color: darkgreen;
+}
+
+
+/* #h1id{
+    color: darkmagenta;
+} */

@@ -1,0 +1,13 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-weight: 800;
+    font-style: italic;
+}
+
+h1{
+    font-weight: 200;
+    font-style: italic;
+}

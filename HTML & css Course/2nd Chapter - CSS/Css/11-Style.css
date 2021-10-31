@@ -1,0 +1,17 @@
+/* inline selector > id selector > class selector > element selector */
+
+div#container ul.my-song li{
+    background-color:brown;
+    color: cornsilk;
+}
+
+/* How to calculate specificity */
+/* 0, 1, 1, 3  -----> 113*/
+
+div#container ul.my-song li.Fav{
+    background-color:cornsilk;
+    color: brown;
+}
+
+/* 0,0,1,0 ------> 10       old specificity  */
+/* 0.1,2,3 ------> 123      new specificity  */

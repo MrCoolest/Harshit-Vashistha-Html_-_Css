@@ -1,0 +1,40 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation-name: bg-change ;
+    animation-duration: 2s;
+    animation-delay :2s ;
+    /* animation-iteration-count: 5; */
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes bg-change{
+    form{
+        background-color: yellow;
+    }
+    to{
+        background-color: rebeccapurple;
+    }
+}
+
+
+.box2{
+    width: 5px;
+    height: 10px;
+    background:blue;
+    animation-name: grow;
+    animation-duration: 8s;
+    animation-fill-mode: forwards ;
+    animation-direction: reverse;
+}
+
+@keyframes grow{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}

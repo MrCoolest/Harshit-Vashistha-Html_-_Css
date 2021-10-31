@@ -1,0 +1,10 @@
+input:focus{
+    color: darkmagenta;
+    /* background-color: rebeccapurple; */
+    outline: none;
+    padding: 20px;
+}
+
+input:required{
+    color: purple;
+}

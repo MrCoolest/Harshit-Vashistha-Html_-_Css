@@ -1,0 +1,8 @@
+/* p:last-child{
+    color: green;
+
+} */
+
+p:last-of-type{
+    color: indigo;
+}

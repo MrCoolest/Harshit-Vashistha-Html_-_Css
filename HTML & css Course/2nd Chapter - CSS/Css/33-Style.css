@@ -1,0 +1,17 @@
+.cool::before{
+    content: 'Hello ';
+    border: 1px dotted gray;
+    color: indigo;
+    display: block;
+}
+
+.cool::after{
+    content: 'Hello ';
+    border: 1px dotted gray;
+    color: indigo;
+    display: block;
+}
+
+.main_heading::after{
+    content: "   ohhhh ";
+}

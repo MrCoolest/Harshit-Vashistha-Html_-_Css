@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.fav{
+    border:10px solid green;
+}
+.mozart{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.beethoven{
+    width: 25%;
+    float: left;
+    background-color: rgb(211, 210, 210);
+    padding: 20px;
+}
+.bakh{
+    width: 25%;
+    float: left;
+    background-color: lightblue;
+    padding: 20px;
+}
+.pigani{
+    width: 25%;
+    float: left;
+    background-color: lightcyan;
+    padding: 20px;
+}
+
+/* .clear-fix{
+    clear: both;
+} */
+
+.fav::after{
+    content: "";
+    display: block;
+    clear: both;
+}

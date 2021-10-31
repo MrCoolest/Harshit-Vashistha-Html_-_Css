@@ -1,0 +1,18 @@
+/* a{
+    border: 2px solid black;
+    margin: 100px;
+    padding: 100px;
+    height: 100px;
+    width: 100px;
+} */
+
+
+a{
+    border: 2px solid rebeccapurple;
+    display: inline-block;
+    margin: 100px;
+    padding: 100px;
+    height: 100px;
+    width: 100px;
+
+}

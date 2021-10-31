@@ -1,0 +1,29 @@
+/* body :not(p){
+    color: red;
+} */
+/* 
+body :not(.fancy){
+    color: red;
+}
+
+div:empty{
+    border: 2px solid rebeccapurple;
+    background-color: rebeccapurple;
+    height: 100px;
+    width: 10px;
+} */
+
+/* :root{
+    background-color: rgb(39, 39, 39);
+    color: rgb(250, 250, 250);
+} */
+
+/* html{
+    background-color: rebeccapurple;
+    color : gold;
+} */
+
+body{
+    background-color: rgb(39, 39, 39);
+    color: rgb(250, 250, 250)
+}

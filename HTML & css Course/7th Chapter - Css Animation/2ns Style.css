@@ -1,0 +1,55 @@
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    /* animation-name: move-around; */
+    position: relative;
+    /* animation-duration: 10s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-delay: ; */
+    /* animation-timing-function: ease-in ; */
+    /* animation-timing-function: ease-out ; */
+    /* animation-timing-function: ease-in-out ; */
+    /* animation-fill-mode: forwards; */
+    /* animation: move-around 2s forwards 2s infinite ease-in; */
+}
+
+
+@keyframes move-around{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: aqua;
+     }
+    10%{
+        background-color: lightgrey;
+     }
+    25%{ 
+        top:0;
+        left:300px;
+        background-color: rebeccapurple;
+
+    }
+    50%{ 
+        top:300px;
+        left:300px;
+        background-color: lightgreen;
+
+    }
+    60%{ 
+        background-color: lightgoldenrodyellow;
+    }
+    75%{ 
+        top:300px;
+        left:0;
+        background-color: lightgreen;
+    }
+    100%{  
+        top:0;
+        left:0;
+        background-color: brown;
+
+    }
+
+}

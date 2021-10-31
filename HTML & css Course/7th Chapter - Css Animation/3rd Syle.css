@@ -1,0 +1,20 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    /* border-radius: 100% 50% 25% 15%; */
+    /* transition: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-in; */
+    transition: background 3s ease-in-out,
+                    width 3s ease-in-out,
+                    height 3s ease-in-out,
+                    border-radius 1s ease-in-out;
+}
+
+.box:hover{
+    background: lightblue;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+}

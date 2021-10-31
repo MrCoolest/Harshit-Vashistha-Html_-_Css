@@ -1,0 +1,35 @@
+header{
+    background-color: springgreen;
+}
+
+section.My-articals{
+    background-color: steelblue;
+}
+/* *{
+    color: tomato;
+} */
+
+
+header p{
+    color: rgb(143, 143, 143);
+}
+
+li a{
+    color: indigo;
+}
+
+/* section.My-articals h2{
+    color: lawngreen;
+} */
+
+section.My-articals > h2{
+    color: lawngreen;
+}
+
+section.My-articals h2+p{
+    color: orangered;
+}
+
+ul+p{
+    color: pink;
+}

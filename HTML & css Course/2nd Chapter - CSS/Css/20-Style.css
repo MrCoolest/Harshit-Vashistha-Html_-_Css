@@ -1,0 +1,14 @@
+hr{
+    width: 500px;
+    margin: 20px ;
+    margin-left: 0%;
+    border-bottom: 2px dashed black;
+}
+
+.box1{
+    box-sizing: border-box;
+    width: 500px;
+    border: 10px solid rebeccapurple;
+    background-color: papayawhip;
+    padding: 50px;
+}

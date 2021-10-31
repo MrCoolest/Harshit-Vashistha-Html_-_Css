@@ -1,0 +1,14 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-Color{
+    background-color: rgb(169, 230, 243);
+}
+
+.sentence-color{
+    background-color: yellow;
+}
+
+.h{
+    color: rgb(192, 7, 100);
+}

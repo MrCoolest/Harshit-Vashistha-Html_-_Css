@@ -1,0 +1,17 @@
+/* p::first-letter{
+    font-size: 40px;
+} */
+
+/* p::first-line{
+    font-size: 40px;
+} */
+
+/* p::selection{
+    background-color: black;
+    color: aqua;
+} */
+
+body ::selection{
+    background-color: black;
+    color: aqua;
+}

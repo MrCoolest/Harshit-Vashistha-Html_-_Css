@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem  ;
+    background-color: rgb(36, 131, 163);
+    margin: 100px auto;
+    border-radius: 50%;
+    text-align: center;
+    /* rotate, skew ,scale, translate  */
+    transition: transform 1s ease-in-out;
+    transform-origin: top left ;
+}
+
+.box:hover{
+    transform: rotate(360deg);
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2,3); */
+    /* transform: translate(-50px,100px); */
+    /* transform: skew(50deg, 30deg); */
+
+}

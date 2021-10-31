@@ -1,0 +1,19 @@
+#heading{
+    color: dodgerblue;
+}
+
+.P-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-red{
+    color: rgb(204, 105, 105);
+}
+
+.text-green{
+    color: rgb(110, 187, 110);
+}
+
+.bg-color{
+    background-color: black;
+}
